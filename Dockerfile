@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 5000
 
 # Запустимо наш застосунок всередині контейнера
-ENTRYPOINT ["python", "app"]
+CMD ["poetry","run","python", "Task1.py"]
